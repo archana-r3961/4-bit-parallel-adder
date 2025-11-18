@@ -1,15 +1,15 @@
-## 📝 **4 bit parallel adder**
+##  **4 bit parallel adder**
 *Adder*
 
-## 📘 **Project Description**
+##  **Project Description**
 This project implements a 4-bit parallel adder using Verilog HDL. It performs binary addition of two 4-bit numbers and generates a 4-bit sum along with a carry-out bit. The design is first simulated in Quartus Prime and then implemented on FPGA.
 
 ---
 
- 🚀  Procedure for 4 bit parallal adder**
+  Procedure for 4 bit parallal adder**
 
 
-### **1️⃣ Create a New Project**
+### ** Create a New Project**
 - Open Quartus Prime
 - Go to **File → New Project Wizard**
 - Choose the project directory
@@ -18,7 +18,7 @@ This project implements a 4-bit parallel adder using Verilog HDL. It performs bi
 
 ---
 
-### **2️⃣ Create Design File (HDL Source)**
+### **Create Design File (HDL Source)**
 - Go to **File → New → (Verilog/VHDL) File**
 - Write your design code
 - Save the file
@@ -27,28 +27,28 @@ This project implements a 4-bit parallel adder using Verilog HDL. It performs bi
 
 ---
 
-### **3️⃣ Create Testbench File (For Simulation)**
+### ** Create Testbench File (For Simulation)**
 - Go to **File → New → (Verilog/VHDL) File**
 - Write the testbench to test your design
 - Save the file
 
 ---
 
-### **4️⃣ Add Required Files to the Project**
+### ** Add Required Files to the Project**
 - Go to **Project → Add/Remove Files in Project**
 - Add your design file(s)
 - Add your testbench file (for simulation)
 
 ---
 
-### **5️⃣ Compile the Project**
+### ** Compile the Project**
 - Go to **Processing → Start Compilation**
 - Wait for the compilation to finish without errors
 
 
 ---
 
-## 🧪 **Simulation Procedure (Any Simulation Tool)**
+##  **Simulation Procedure (Any Simulation Tool)**
 - Go to **Tools → Run Simulation Tool → RTL Simulation**
 - Open your testbench
 - Run simulation
@@ -58,7 +58,7 @@ This project implements a 4-bit parallel adder using Verilog HDL. It performs bi
 
 ---
 
-## 🔌 **(Optional) FPGA Pin Assignment**
+##  **(Optional) FPGA Pin Assignment**
 Only required if the design is to be implemented on hardware.
 
 - Go to **Assignments → Pin Planner**
@@ -69,12 +69,12 @@ Only required if the design is to be implemented on hardware.
 
 ---
 
-## 📁 **Recommended Folder Structure**
+##  **Recommended Folder Structure**
 ```
-📦 4 bit parallel adder
- ┣ 📜 parallel_adder / v / vhd
- ┣ 📜 tb_parallel_adder.sv / v / vhd
- ┣ 📁 output_files
- ┣ 📁 simulation
- ┗ 📜 README.md
+ 4 bit parallel adder
+ ┣  parallel_adder / v / vhd
+ ┣  tb_parallel_adder.sv / v / vhd
+ ┣  output_files
+ ┣  simulation
+ ┗  README.md
 ```
